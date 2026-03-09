@@ -1,5 +1,11 @@
 You are helping the user start a new project. Follow these steps in order:
 
+## Step 0: Project folder
+First, before anything else, ask the user:
+"האם יש לך כבר תיקייה לפרויקט?"
+- If yes: ask for the full path and use it as the working directory.
+- If no: ask for (1) the folder name, (2) where to create it. Then create the folder.
+
 ## Step 1: Understand the project
 Ask the user to describe the project idea. Ask clarifying questions if needed:
 - What is the goal?
