@@ -6,16 +6,10 @@
 
 ## התקנה
 
-שמים את הקובץ `new-project.md` בתיקייה:
+קובץ הפקודה `new-project.md` צריך להימצא בתיקייה:
 
-**Windows:**
 ```
-C:\Users\<username>\.claude\commands\new-project.md
-```
-
-**Mac / Linux:**
-```
-~/.claude/commands/new-project.md
+C:\Users\user\.claude\commands\new-project.md
 ```
 
 ברגע שהקובץ נמצא שם, הפקודה זמינה אוטומטית ב-Claude Code ללא צורך בהגדרות נוספות.
@@ -33,6 +27,9 @@ C:\Users\<username>\.claude\commands\new-project.md
 ---
 
 ## מה קורה בכל שלב
+
+**שלב 0: תיקיית הפרויקט**
+Claude שואל אם קיימת תיקייה לפרויקט. אם לא - שואל שם ומיקום ויוצר אותה.
 
 **שלב 1: הבנת הפרויקט**
 Claude שואל על מטרת הפרויקט, stack טכנולוגי, איפה ירוץ (local/cloud), ואם יש מגבלות עלות.
